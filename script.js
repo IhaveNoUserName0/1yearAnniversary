@@ -46,8 +46,8 @@ function showText() {
 const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
 window.addEventListener("scroll", () => {
-    let textThreshold = isMobile ? 200 : 300;
-    let startThreshold = isMobile ? 2137 : 1490;
+    let textThreshold = isMobile ? 400 : 600;
+    let startThreshold = isMobile ? 2270 : 1490;
     console.log(window.scrollY);
 
     if (text && window.scrollY >= textThreshold) {
